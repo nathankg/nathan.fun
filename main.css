@@ -1,12 +1,16 @@
 /* main.css */
 
 head {
-	background-image: url("file://PATH-TO/Pictures/JeffersonMemorial_Sunset.jpg");
-	background-repeat: no-repeat;
+	
 }
 
 body {
+	/*background-color: lightblue;		/* Background needed for incorrect resizing */
+	background-image: url("Pictures/JeffersonMemorial_Sunset.jpg"); 
+	background-size: cover;
+	background-repeat: no-repeat;
 
+	/* GOAL: Switch b/n portrait & landscape images depending on orientations and/or mobile */
 }
 
 h1 {
