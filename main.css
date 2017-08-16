@@ -5,12 +5,47 @@ head {
 }
 
 body {
-	/*background-color: lightblue;		/* Background needed for incorrect resizing */
+	background-color: #4682B4;		/* SteelBlue */
 	background-image: url("Pictures/JeffersonMemorial_Sunset.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 
 	/* GOAL: Switch b/n portrait & landscape images depending on orientations and/or mobile */
+}
+
+.box_name {	
+	color: #FFFAFA;		/* snow */
+	text-shadow: 1px 1px #F0FFFF; 		/* Azure */
+	font-size: 400%;
+	text-indent: 20px;
+	text-align: justify;
+	text-justify: inter-word;
+
+	padding: 30px 40px 30px 20px;		/* top right bottom left */
+
+	position: absolute;
+	left: 0px;
+	top: 70px;
+	background-color: #4682B4;	/* SteelBlue */
+	/* opacity: 0.5; */
+
+}
+
+.box_tagline {
+	color: #F5F5F5;		/* White smoke */
+	text-shadow: 1px 1px #FFFFFF;		/* White */
+	font-size: 250%;
+	text-indent: 10px;
+	text-align: justify;
+	text-justify: inter-word;
+
+	padding: 10px 20px 20px 20px;		/* top right bottom left */
+
+	position: absolute;
+	left: 0px;
+	top: 200px;
+	background-color: #1E90FF;		/* Dodger Blue */
+	/* opacity: 0.75; */
 }
 
 h1 {
