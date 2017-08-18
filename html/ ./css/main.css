@@ -6,7 +6,7 @@ head {
 
 body {
 	background-color: #4682B4;		/* SteelBlue */
-	background-image: url("Pictures/JeffersonMemorial_Sunset.jpg"); 
+	background-image: url("/~nathankg/JeffersonMemorial_Sunset.jpg"); 
 	background-size: cover;
 	background-repeat: no-repeat;
 
@@ -46,6 +46,11 @@ body {
 	top: 200px;
 	background-color: #1E90FF;		/* Dodger Blue */
 	/* opacity: 0.75; */
+}
+
+.navbar {
+	color: #F5F5F5;		/* White smoke */
+	font-size: 125%;
 }
 
 h1 {
